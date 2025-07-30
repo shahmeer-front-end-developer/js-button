@@ -1,0 +1,69 @@
+
+
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>JavaScript Baby Examples</title>
+</head>
+<body>
+
+  <h2>JavaScript Baby Examples 👶</h2>
+
+  <!-- Example 1: Variable -->
+  <h3>1. Variable Example</h3>
+  <button onclick="showName()">Show Name</button>
+
+  <!-- Example 2: Function -->
+  <h3>2. Function Example</h3>
+  <button onclick="sayHello()">Say Hello</button>
+
+  <!-- Example 3: If Statement -->
+  <h3>3. If Statement Example</h3>
+  <button onclick="checkChocolate()">Do you have chocolate?</button>
+
+  <!-- Example 4: Prompt Input -->
+  <h3>4. Prompt Example</h3>
+  <button onclick="askName()">Enter Your Name</button>
+
+  <!-- Example 5: Loop Example -->
+  <h3>5. Loop Example</h3>
+  <button onclick="sayHelloFiveTimes()">Say Hello 5 Times</button>
+
+  <script>
+    // 1. Variable Example
+    function showName() {
+      var name = "Ravi";
+      alert (name)
+    }
+
+    // 2. Function Example
+    function sayHello() {
+      alert("Hello Baby! 👶");
+    }
+
+    // 3. If Statement Example
+    function checkChocolate() {
+      var chocolate = "yes";
+      if (chocolate == "yes") {
+        alert("Yay! I'm happy 🍫");
+      } else {
+        alert("No chocolate? 😢");
+      }
+    }
+
+    // 4. Prompt Example
+    function askName() {
+      var naam = prompt("Aapka naam kya hai?");
+      alert("Hello " + naam + "! Welcome 😊");
+    }
+
+    // 5. Loop Example
+    function sayHelloFiveTimes() {
+      for (var i = 1; i <= 5; i++) {
+        alert("Hello! This is number " + i);
+      }
+    }
+  </script>
+
+</body>
+</html>
